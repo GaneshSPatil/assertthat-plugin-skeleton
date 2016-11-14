@@ -1,0 +1,23 @@
+{
+  "name": "assertthat-plugin-skeleton",
+  "version": "0.0.1",
+  "description": "a simple plugin-skeleton for assertthat testing lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaneshSPatil/asserttest-plugin-skeleton.git"
+  },
+  "author": "Ganesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshSPatil/asserttest-plugin-skeleton/issues"
+  },
+  "homepage": "https://github.com/GaneshSPatil/asserttest-plugin-skeleton#readme",
+  "devDependencies": {
+    "assertthat": "^0.8.1",
+    "mocha": "^3.1.2"
+  }
+}
