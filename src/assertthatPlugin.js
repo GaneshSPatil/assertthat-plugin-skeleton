@@ -7,7 +7,7 @@ module.exports = function() {
   };
 
   plugin.addProperties = function(is, actual) {
-    is.myAssertTrue = function() {
+    is.isTrue = function() {
         if(actual === true) {
           return;
         }

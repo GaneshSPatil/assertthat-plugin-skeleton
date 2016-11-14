@@ -13,7 +13,7 @@ describe('Plugin Add Properties', function() {
     assert.that(Object.keys(is).length).is.greaterThan(0);
   });
 
-  it('should add myAssertTrue property', function() {
+  it('should add isTrue property', function() {
     var is = {};
     var actual = true;
     var addProperties = typePlugin().addProperties;
@@ -21,7 +21,7 @@ describe('Plugin Add Properties', function() {
     assert.that(Object.keys(is).length).is.equalTo(0);
 
     addProperties(is, actual);
-    assert.that(Object.keys(is)).is.containing('myAssertTrue');
-    assert.that(is.myAssertTrue).is.not.throwing('Expected `true` to be a True.');
+    assert.that(Object.keys(is)).is.containing('isTrue');
+    assert.that(is.isTrue).is.not.throwing('Expected `true` to be a True.');
   });
 });
